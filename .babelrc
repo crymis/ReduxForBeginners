@@ -3,7 +3,6 @@
   "env": {
     "development": {
       "plugins": [
-        ["transform-class-properties"],
         ["transform-object-rest-spread"],
         ["transform-react-display-name"],
         ["react-transform", {

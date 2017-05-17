@@ -8,7 +8,9 @@ import rootReducer from './reducers/index';
 
 // get data
 import comments from './data/comments';
-import posts from './data/posts';
+// import posts from './data/posts';
+// inject own instagram images
+var posts = [{}];
 import rootSaga from './data/sagas';
 
 

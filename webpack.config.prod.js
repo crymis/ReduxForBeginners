@@ -8,7 +8,7 @@ module.exports = {
     './client/reduxstagram'
   ],
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'prod/dist'),
     filename: 'bundle.js',
     publicPath: '/static/'
   },
