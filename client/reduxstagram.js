@@ -17,7 +17,6 @@ import store, { history } from './store';
 
 
 
-
 /* ______ USE SENTRY FOR ERROR TRACKING _______ */
 import Raven from 'raven-js';
 import { sentry_url, logException } from './data/config';
